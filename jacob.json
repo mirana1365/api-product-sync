@@ -1,0 +1,27 @@
+{
+  "name": "api-product-sync",
+  "description": "API for product synchronization with 360 view",
+  "version": "1.0.0",
+  "build": {
+    "commands": [
+      "npm install"
+    ]
+  },
+  "test": {
+    "commands": [
+      "npm test"
+    ]
+  },
+  "resources": {
+    "disk": {
+      "required": "500MB"
+    },
+    "memory": {
+      "required": "1GB"
+    }
+  },
+  "tmpdir": {
+    "path": "/tmp",
+    "cleanup": true
+  }
+}
